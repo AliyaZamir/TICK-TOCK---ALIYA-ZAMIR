@@ -12,6 +12,8 @@ function draw() {
   text('Current hour:\n' + hour, 5, 50);
   text('Current minute: \n' + minute, 80, 50);
   text('Current second: \n' + second, 165, 50);
+  
+  sc = second();
 
   angleMode(DEGREES);
   map()
